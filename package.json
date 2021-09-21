@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-<% INTEGRATION %>-integration",
+  "name": "ecommerce-hesam-integration",
   "private": true,
   "license": "MIT",
   "engines": {

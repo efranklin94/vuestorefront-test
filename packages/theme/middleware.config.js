@@ -1,8 +1,12 @@
 module.exports = {
   integrations: {
-    <% INTEGRATION %>: {
-      location: '@vue-storefront/<% INTEGRATION %>-api/server',
-      configuration: {}
+    hesam: {
+      location: '@vue-storefront/hesam-api/server',
+      configuration: {
+        api: {
+          url: 'https://rest.binshops.com'
+        }
+      }
     }
   }
 };
