@@ -12,5 +12,5 @@ export async function getProduct(context, params) {
   const { data } = await context.client.get(url.href);
 
   // Return data from the API
-  return data;
+  return data.psdata;
 }
